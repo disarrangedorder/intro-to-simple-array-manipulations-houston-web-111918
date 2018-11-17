@@ -22,5 +22,3 @@ end
 def shift_with_args (array, i=last_two)
   array.shift(i)
 end
-  
-  
