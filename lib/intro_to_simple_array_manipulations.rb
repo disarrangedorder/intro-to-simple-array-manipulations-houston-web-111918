@@ -10,16 +10,11 @@ def using_pop (array)
   array.pop
 end
 
-def pop_with_args (array, i=2)
-  last_two = array.pop(i)
-  return last_two
-end
+def pop_with_args (array)
+  array.pop(2)
+  end
 
 def using_shft (array)
 
   return array.shift
-end
-
-def shift_with_args (array, i=last_two)
-  array.shift(i)
 end
